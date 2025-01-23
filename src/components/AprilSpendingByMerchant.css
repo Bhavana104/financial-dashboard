@@ -1,0 +1,161 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-buttons button {
+    margin-left: 10px;
+  }
+  
+  .spending-planner, .filters, .download {
+    margin-right: 10px;
+  }
+  
+  .april-summary, .april-spending-by-category, .april-spending-by-merchant, .recent-transactions {
+    margin: 20px 0;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .merchant-list ul {
+    list-style: none;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  .april-spending-by-merchant {
+    padding: 20px;
+  }
+  
+  .tabs {
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .merchant-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .merchant-list li {
+    margin-bottom: 10px;
+  }
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  .april-spending-by-merchant {
+    padding: 20px;
+    
+  }
+  
+  .tabs {
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .merchant-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .merchant-list th, .merchant-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .merchant-list th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .merchant-list td {
+    text-align: left;
+  }
+  .tabs button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .merchant-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .merchant-list th, .merchant-list td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  .merchant-list th {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .merchant-list td {
+    text-align: left;
+  }
+  
+  .merchant-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .merchant-list tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .merchant-list th, .merchant-list td {
+    padding: 15px;
+  }
+  
+  .merchant-list th {
+    background-color: #0e58a2;
+    color: white;
+  }
+  
+  .merchant-list td {
+    color: #333;
+  }
+  

@@ -1,0 +1,81 @@
+
+
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-buttons button {
+    margin-left: 10px;
+  }
+  
+  .spending-planner, .filters, .download {
+    margin-right: 10px;
+  }
+  
+  .april-summary, .april-spending-by-category, .april-spending-by-merchant, .recent-transactions {
+    /* margin: 20px 0; */
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    
+  }
+  
+  .merchant-list ul {
+    list-style: none;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  /* Filters.css */
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures elements are spaced out */
+    gap: 10px; /* Adds space between elements */
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px; /* Adds space between buttons */
+  }
+  
+  .nav-buttons button {
+    background-color: #0e58a2; /* Changes button color to blue */
+    color: white; /* Changes text color to white for better contrast */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: darkblue; /* Changes button color on hover */
+  }
